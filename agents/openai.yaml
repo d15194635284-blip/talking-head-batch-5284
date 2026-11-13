@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播批剪 5284"
+  short_description: "本地听写与口播批剪，沿用确认版式、按语速变速提亮并混入统一配乐"
+  default_prompt: "用 $talking-head-batch-5284 按确认效果批剪指定目录的口播，输出 MP4 和剪辑复核清单。"

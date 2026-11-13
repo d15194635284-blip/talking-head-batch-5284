@@ -1,0 +1,33 @@
+# Machine settings and runtime state
+local-settings.json
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.work-5284/
+**/.work-5284/
+outputs/
+work/
+dist/
+*.partial
+*.partial.mp4
+# User footage, audio, models and generated plans
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.pt
+*.srt
+!references/example.srt
+plan.json
+本轮成片清单.md
+本轮处理结果.json
+Thumbs.db
+.DS_Store

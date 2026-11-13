@@ -1,0 +1,31 @@
+{
+  "title": [
+    "郑州专业短视频拍摄",
+    "一个月2980支持上门拍摄",
+    "仅限郑州及周边"
+  ],
+  "title_size": 60,
+  "title_y": [
+    75,
+    137,
+    199
+  ],
+  "cta": "评论区扣666",
+  "cta_size": 75,
+  "cta_y": 855,
+  "caption_size": 38,
+  "caption_y": 950,
+  "font": "Microsoft YaHei",
+  "show_title": true,
+  "show_cta": true,
+  "show_captions": true,
+  "title_color": "#FFE900",
+  "title_outline_color": "#121212",
+  "title_outline": 5,
+  "cta_color": "#E53B21",
+  "cta_outline_color": "#FFF7D7",
+  "cta_outline": 5,
+  "caption_color": "#FFFFFF",
+  "caption_outline_color": "#121212",
+  "caption_outline": 3
+}

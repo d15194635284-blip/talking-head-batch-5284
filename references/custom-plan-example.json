@@ -1,0 +1,63 @@
+{
+  "music": {
+    "file": "D:/配乐/自选音乐.mp3",
+    "gap_db": 8,
+    "fade_out": 1
+  },
+  "style": {
+    "title": [
+      "自定义第一行",
+      "自定义第二行",
+      "自定义第三行"
+    ],
+    "caption_size": 44,
+    "caption_color": "#FFFFFF"
+  },
+  "items": [
+    {
+      "id": "001_自选字幕",
+      "source": "D:/素材/口播.mp4",
+      "keep": [
+        [
+          0.8,
+          5.4
+        ],
+        [
+          5.7,
+          10.2
+        ]
+      ],
+      "speed": 1.1,
+      "overall": 0.01,
+      "face": 8,
+      "subtitles": {
+        "file": "口播字幕.srt",
+        "timebase": "source"
+      },
+      "cut_notes": "片头等待与句间停顿",
+      "review": []
+    },
+    {
+      "id": "002_无配乐",
+      "source": "D:/素材/另一条.mp4",
+      "keep": [
+        [
+          0.2,
+          3
+        ]
+      ],
+      "speed": 1.1,
+      "music": null,
+      "style": {
+        "show_title": false,
+        "show_cta": false
+      },
+      "subtitles": {
+        "file": "剪后字幕.srt",
+        "timebase": "output"
+      },
+      "cut_notes": "片头等待",
+      "review": []
+    }
+  ]
+}
